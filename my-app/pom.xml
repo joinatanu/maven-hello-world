@@ -94,18 +94,10 @@
 	    <artifactId>maven-compiler-plugin</artifactId>
 	    <version>3.8.0</version>
 	    <configuration>
-              <source>1.8</source>
+	      <source>1.8</source>
               <target>1.8</target>
-              <fork>true</fork>
-              <!-- Add all the checkers you want to enable here -->
-              <annotationProcessors>
-                  <annotationProcessor>org.checkerframework.checker.nullness.NullnessChecker</annotationProcessor>
-              </annotationProcessors>
-              <compilerArgs>
-                  <!-- location of the annotated JDK, which comes from a Maven dependency -->
-                  <arg>-Xbootclasspath/p:${annotatedJdk}</arg>
-              </compilerArgs>		    
-		<release>11</release>  <!--or <release>10</release>-->
+              <fork>true</fork>    
+	       <release>11</release>  <!--or <release>10</release>-->
 	    </configuration>
 	</plugin>	    
       <!--<plugin>
