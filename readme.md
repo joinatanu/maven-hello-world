@@ -1,6 +1,7 @@
 # A simple, minimal Maven example: hello world
 # Testing the poll scm feature.
 # Testing the poll scm feature 2nd time.
+# Testing the poll scm feature 3rd time.
 
 To create the files in this git repo we've already run `mvn archetype:generate` from http://maven.apache.org/guides/getting-started/maven-in-five-minutes.html
 
